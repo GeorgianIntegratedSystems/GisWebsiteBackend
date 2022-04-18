@@ -5,4 +5,3 @@ module.exports = ({ env }) => ({
     keys: env.array("APP_KEYS", ["testKey1", "testKey2"]),
   },
 });
-heroku config:set APP_KEYS=someSecretValue1,someSecretValue2
